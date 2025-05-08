@@ -29,9 +29,13 @@ const Navbar = () => {
             onMouseEnter={() => setShowPreview(true)}
             onMouseLeave={() => setShowPreview(false)}
           >
-            <Link href="https://cr-3d.com/Tours/Thepointenclave//" target="_blank" className="text-white hover:text-gray-300 font-medium">
+            {/* <Link href="https://cr-3d.com/Tours/Thepointenclave//" target="_blank" className="text-white hover:text-gray-300 font-medium">
+              Explore Avellanas
+            </Link> */}
+            <Link href="/explore-avellanas" className="text-white hover:text-gray-300 font-medium">
               Explore Avellanas
             </Link>
+
             {showPreview && (
               <div className="absolute left-1/2 transform -translate-x-1/2 mt-2 w-64 h-40 bg-white shadow-lg border rounded-lg overflow-hidden">
                 <Image
