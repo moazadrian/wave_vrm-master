@@ -7,16 +7,15 @@ const Hero = () => {
 
   return (
     <>
-<div className="w-screen h-screen overflow-hidden">
-      <iframe
-        src="https://cr-3d.com/Tours/Thepointenclave/"
-        width="100%"
-        height="100%"
-        allowFullScreen
-        frameBorder="0"
-        className="w-full h-full"
-      ></iframe>
-    </div>
+<div className="w-full h-screen overflow-hidden">
+  <iframe
+    src="https://cr-3d.com/Tours/Thepointenclave/"
+    allowFullScreen
+    frameBorder="0"
+    className="w-full h-full"
+  ></iframe>
+</div>
+
     </>
   );
 };
