@@ -53,7 +53,7 @@ const Navbar = () => {
           <Link href="/property-management" className="text-white hover:text-gray-300 font-medium">
             Property Management
           </Link>
-          <Link href="https://wavetest.holidayfuture.com/contact-us" className="text-white hover:text-gray-300 font-medium">
+          <Link href="/contact" className="text-white hover:text-gray-300 font-medium">
             Contact Us
           </Link>
           <Link href="https://wavetest.holidayfuture.com/about-us" className="text-white hover:text-gray-300 font-medium">
