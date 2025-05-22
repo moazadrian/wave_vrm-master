@@ -3,6 +3,7 @@
 import Image from 'next/image';
 import Navbar from '../components/Navbar';
 import SearchBar from '../components/SearchBar';
+import Footer from '../components/Footer';
 
 export default function AboutPage() {
   return (
@@ -64,6 +65,7 @@ export default function AboutPage() {
         </div>
       </section>
     </main>
+    <Footer />
     </>
   );
 }
