@@ -12,7 +12,7 @@ export default function HostawaySearchBar() {
       if (window.searchBar) {
         window.searchBar({
           baseUrl: 'https://wavetest.holidayfuture.com/all-listings',
-          showLocation: true,
+          showLocation: false,
           color: '#115e72',
           rounded: true,
           openInNewTab: true,
