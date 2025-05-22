@@ -5,12 +5,14 @@ import InfoSec from './components/InfoSec';
 import InstagramGrid from './components/InstagramGrid';
 import Navbar from './components/Navbar';
 import ReviewSection from './components/ReviewSection';
+import SearchBar from './components/SearchBar';
 
 export default function Home() {
  
   return (
    <>
    <Navbar />
+   <SearchBar />
    <HeroSec />
    <InfoSec />
    <AvellanasOffer />

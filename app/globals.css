@@ -24,3 +24,73 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* Override faded options in Hostaway widget */
+#hostaway-booking-widget * {
+  color: #000 !important; /* Change to darker text */
+  opacity: 1 !important;
+}
+
+#hostaway-booking-widget li,
+#hostaway-booking-widget .location-option,
+#hostaway-booking-widget .dropdown-item {
+  cursor: pointer !important; /* Show pointer on hover */
+}
+
+/* Disable pointer and dim past dates */
+#hostaway-booking-widget td.past,
+#hostaway-booking-widget td.disabled,
+#hostaway-booking-widget td.unavailable {
+  pointer-events: none !important;
+  cursor: not-allowed !important;
+  opacity: 0.4 !important;
+}
+
+/* === Arrows with grayscale background (not teal) === */
+.hsbw-calendar .hsbw-calendar-button {
+  background-color: #f0f0f0 !important; /* light gray background */
+  color: #666 !important;
+  border-radius: 50% !important;
+  width: 28px !important;
+  height: 28px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  border: none !important;
+  margin: 0 6px;
+  opacity: 0.6;
+  transition: opacity 0.3s ease;
+}
+
+.hsbw-calendar .hsbw-calendar-button:hover {
+  background-color: #e0e0e0 !important;
+  opacity: 0.8;
+}
+
+.hsbw-calendar .hsbw-calendar-button svg path {
+  fill: #666 !important;
+}
+
+/* === Minimized "Clear dates" button in gray === */
+.hsbw-calendar .hsbw-calendar-clear {
+  background-color: #f5f5f5 !important;
+  color: #666 !important;
+  border: 1px solid #d0d0d0 !important;
+  border-radius: 9999px !important;
+  padding: 0.25rem 0.75rem !important;
+  font-weight: 500 !important;
+  font-size: 0.75rem !important;
+  margin: 0.75rem auto 0 auto !important;
+  display: block !important;
+  width: auto !important;
+  min-width: unset !important;
+  opacity: 0.6;
+  transition: all 0.3s ease;
+}
+
+.hsbw-calendar .hsbw-calendar-clear:hover {
+  background-color: #eaeaea !important;
+  opacity: 0.8;
+  border-color: #c0c0c0 !important;
+  color: #444 !important;
+}
