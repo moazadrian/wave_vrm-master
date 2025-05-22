@@ -35,7 +35,7 @@ const Navbar = () => {
             <Link href="/explore-avellanas" className="text-white hover:text-gray-300 font-medium">
               Explore Avellanas
             </Link>
-
+{/* 
             {showPreview && (
               <div className="absolute left-1/2 transform -translate-x-1/2 mt-2 w-64 h-40 bg-white shadow-lg border rounded-lg overflow-hidden">
                 <Image
@@ -45,7 +45,7 @@ const Navbar = () => {
                   objectFit="cover"
                 />
               </div>
-            )}
+            )} */}
           </div>
           <Link href="https://wavetest.holidayfuture.com/all-listings" target="_blank" className="text-white hover:text-gray-300 font-medium">
             All Listings

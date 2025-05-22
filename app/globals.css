@@ -94,3 +94,11 @@ body {
   border-color: #c0c0c0 !important;
   color: #444 !important;
 }
+
+#hostaway-booking-widget .hsbw-main-button {
+  color: white !important;
+}
+
+.hsbw-main-button:hover {
+  background-color: #0e4f5f !important;
+}
