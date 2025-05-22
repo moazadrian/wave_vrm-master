@@ -1,6 +1,7 @@
 import React from 'react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
+import SearchBar from '../components/SearchBar';
 
 export const metadata = {
   title: 'Wave Vacation Rentals',
@@ -11,6 +12,8 @@ const page = () => {
   return (
      <>
      <Navbar />
+     <SearchBar />
+    <section className='pt-[160px]'>
 <section className="bg-[#f9fafb] text-gray-800 px-6 py-16 lg:px-24">
   <div className="w-full max-w-screen-xl mx-auto">
     <h1 className="text-4xl lg:text-5xl font-bold mb-4 text-gray-900">
@@ -80,7 +83,7 @@ const page = () => {
     </div>
   </div>
 </section>
-
+</section>
     <Footer />
     </>
   )

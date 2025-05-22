@@ -1,12 +1,14 @@
 import React from 'react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
+import SearchBar from '../components/SearchBar';
 
 const page = () => {
   return (
     <>
     <Navbar />
-    <section className="bg-gray-50 px-6 py-16 lg:px-24">
+    <SearchBar />
+    <section className='pt-[160px]'><section className="bg-gray-50 px-6 py-16 lg:px-24">
       <div className="max-w-screen-xl mx-auto">
         <h1 className="text-4xl font-bold text-gray-900 mb-2">Contact Us</h1>
         <p className="text-lg text-gray-700 mb-8">Feel free to contact us using the form below</p>
@@ -78,6 +80,7 @@ const page = () => {
           </div>
         </div>
       </div>
+    </section>
     </section>
     <Footer />
     </>

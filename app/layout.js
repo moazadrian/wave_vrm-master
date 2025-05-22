@@ -11,9 +11,13 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+// ✅ Add favicon reference here
 export const metadata = {
   title: "Wave VRM",
   description: "",
+  icons: {
+    icon: "/favicon.ico", // path relative to /public folder
+  },
 };
 
 export default function RootLayout({ children }) {

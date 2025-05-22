@@ -56,7 +56,7 @@ const Navbar = () => {
           <Link href="/contact" className="text-white hover:text-gray-300 font-medium">
             Contact Us
           </Link>
-          <Link href="https://wavetest.holidayfuture.com/about-us" className="text-white hover:text-gray-300 font-medium">
+          <Link href="/about" className="text-white hover:text-gray-300 font-medium">
             About
           </Link>
         </div>

@@ -16,7 +16,7 @@ const Hero = () => {
 
   return (
     <>
-      <div className="relative w-full h-[calc(100vh-4rem)] overflow-hidden">
+      <div className="relative w-full h-[calc(100vh-4rem)] overflow-hidden pt-[160px]">
         {/* Background Video */}
         <video
           ref={videoRef}
@@ -49,9 +49,13 @@ const Hero = () => {
         <div className="absolute top-0 left-0 w-full h-full bg-black opacity-20 z-10"></div>
 
         {/* Hero Content (Bottom Aligned) */}
-        <div className="absolute bottom-12 left-1/2 transform -translate-x-1/2 text-center text-white z-20">
-          <h1 className="text-4xl md:text-6xl font-bold">Wave VRM</h1>
-          <h4 className="text-lg md:text-2xl mt-4">Experience the best we have to offer</h4>
+<div className="absolute bottom-12 left-1/2 transform -translate-x-1/2 z-20 w-full max-w-4xl px-6">
+  <div className="bg-[#115e72]/20 backdrop-blur-sm py-6 px-4 text-center text-white">
+    <h1 className="text-4xl md:text-6xl font-bold">Wave Vacation Rentals</h1>
+    <h4 className="text-lg md:text-2xl mt-2">
+      Luxury vacation Rentals | Playa Avellanas, Costa Rica
+    </h4>
+  </div>
           <div className="mt-6 flex justify-center space-x-4">
             <Link href="https://wavetest.holidayfuture.com/all-listings">
               <button className="px-6 py-3 bg-[#0e5d70] hover:bg-[#179cbc] rounded-lg font-medium">
