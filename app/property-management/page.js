@@ -12,7 +12,6 @@ const page = () => {
   return (
      <>
      <Navbar />
-     <SearchBar />
     <section className='pt-[160px]'>
 <section className="bg-[#f9fafb] text-gray-800 px-6 py-16 lg:px-24">
   <div className="w-full max-w-screen-xl mx-auto">

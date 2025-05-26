@@ -9,7 +9,6 @@ export default function AboutPage() {
   return (
     <>
     <Navbar />
-   <SearchBar />
     <main className="bg-white pt-[160px]">
      {/* Header Section */}
 <section className="relative w-full h-[50vh] flex items-center justify-center overflow-hidden">

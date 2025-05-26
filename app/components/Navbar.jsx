@@ -4,12 +4,14 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { useState } from 'react';
 import React from 'react'
+import HostawaySearchBar from './HostawaySearchBar';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [showPreview, setShowPreview] = useState(false);
   return (
-    <nav className="bg-[#0e5d70] shadow-md sticky top-0 z-50">
+    <>
+    <nav className="bg-[#0e5d70] sticky top-0 z-50">
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div className="flex justify-between h-16 items-center">
         <div className="flex items-center">
@@ -87,6 +89,13 @@ const Navbar = () => {
       </div>
     )}
   </nav>
+  <div
+  style={{ backgroundColor: '#115e72' }}
+  className="fixed top-6 left-0 w-full z-40 flex flex-col items-center pt-4 space-y-4 shadow-md"
+>
+      <HostawaySearchBar />
+    </div>
+  </>
   )
 }
 

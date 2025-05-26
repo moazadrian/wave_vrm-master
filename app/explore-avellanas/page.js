@@ -12,7 +12,7 @@ export default function ExploreAvellanas() {
   return (
    <>
    <Navbar />
-   <SearchBar />
+   {/* <SearchBar /> */}
    <HeroSec />
    <InfoSec />
    <AvellanasOffer />

@@ -7,7 +7,6 @@ const page = () => {
   return (
     <>
     <Navbar />
-    <SearchBar />
     <section className='pt-[160px]'><section className="bg-gray-50 px-6 py-16 lg:px-24">
       <div className="max-w-screen-xl mx-auto">
         <h1 className="text-4xl font-bold text-gray-900 mb-2">Contact Us</h1>
