@@ -15,8 +15,8 @@ const Footer = () => {
 
         {/* Links */}
         <div className="flex space-x-6 text-white text-sm ml-6">
-          <a href="https://wavetest.holidayfuture.com/privacy-policy" className="hover:underline" target='_blank'>Privacy Policy</a>
-          <a href="https://wavetest.holidayfuture.com/terms-and-conditions" className="hover:underline" target='_blank'>Terms and Conditions</a>
+          <a href="https://book.wavevacationrentals.com/privacy-policy" className="hover:underline" target='_blank'>Privacy Policy</a>
+          <a href="https://book.wavevacationrentals.com/terms-and-conditions" className="hover:underline" target='_blank'>Terms and Conditions</a>
         </div>
       </div>
     </footer>

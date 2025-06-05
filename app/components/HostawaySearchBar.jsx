@@ -11,7 +11,7 @@ export default function HostawaySearchBar() {
     script.onload = () => {
       if (window.searchBar) {
         window.searchBar({
-          baseUrl: 'https://wavetest.holidayfuture.com/all-listings',
+          baseUrl: 'https://book.wavevacationrentals.com/all-listings',
           showLocation: false,
           color: '#115e72',
           rounded: true,

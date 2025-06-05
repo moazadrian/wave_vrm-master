@@ -57,7 +57,7 @@ const Hero = () => {
     </h4>
   </div>
           <div className="mt-6 flex justify-center space-x-4">
-            <Link href="https://wavetest.holidayfuture.com/all-listings">
+            <Link href="https://book.wavevacationrentals.com/all-listings">
               <button className="px-6 py-3 bg-[#0e5d70] hover:bg-[#179cbc] rounded-lg font-medium">
                 Our Listings
               </button>

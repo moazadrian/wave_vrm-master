@@ -17,12 +17,12 @@ const Navbar = () => {
         <div className="flex items-center">
           <Link href="/">
             <Image 
-              src="https://bookingenginecdn.hostaway.com/account/attachment/95957-qq2dgEB0CKQ8J8d7ihcUmbyXjM8xkZk17elywb8Ts4s-67b7a73c23878?width=600&quality=70&format=webp&v=2" 
-              alt="Wave VRM Logo" 
-              width={150} 
-              height={50} 
-              className="object-contain"
-            />
+  src="/wavevrm.webp" 
+  alt="Wave VRM Logo" 
+  width={150} 
+  height={50} 
+  className="object-contain"
+/>
           </Link>
         </div>
         <div className="hidden md:flex space-x-6 items-center">
@@ -49,7 +49,7 @@ const Navbar = () => {
               </div>
             )} */}
           </div>
-          <Link href="https://wavetest.holidayfuture.com/all-listings" target="_blank" className="text-white hover:text-gray-300 font-medium">
+          <Link href="https://book.wavevacationrentals.com/all-listings" target="_blank" className="text-white hover:text-gray-300 font-medium">
             All Listings
           </Link>
           <Link href="/property-management" className="text-white hover:text-gray-300 font-medium">
@@ -74,16 +74,16 @@ const Navbar = () => {
         <Link href="https://cr-3d.com/Tours/Thepointenclave//" target="_blank" className="block text-white hover:text-gray-300 font-medium">
           Explore Avellanas
         </Link>
-        <Link href="https://wavetest.holidayfuture.com/all-listings" target="_blank" className="block text-white hover:text-gray-300 font-medium">
+        <Link href="https://book.wavevacationrentals.com/all-listings" target="_blank" className="block text-white hover:text-gray-300 font-medium">
           All Listings
         </Link>
         <Link href="/property-management" className="block text-white hover:text-gray-300 font-medium">
           Property Management
         </Link>
-        <Link href="https://wavetest.holidayfuture.com/contact-us" className="block text-white hover:text-gray-300 font-medium">
+        <Link href="https://book.wavevacationrentals.com/contact-us" className="block text-white hover:text-gray-300 font-medium">
           Contact Us
         </Link>
-        <Link href="https://wavetest.holidayfuture.com/about-us" className="block text-white hover:text-gray-300 font-medium">
+        <Link href="https://book.wavevacationrentals.com/about-us" className="block text-white hover:text-gray-300 font-medium">
           About
         </Link>
       </div>
